@@ -137,3 +137,8 @@ ul{
 .end {
   margin-bottom: 40px;
 }
+#end{
+  margin-top: 40px;
+  width: 1120px;
+  text-align: center;
+}
