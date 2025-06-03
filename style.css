@@ -142,3 +142,9 @@ ul{
   width: 1120px;
   text-align: center;
 }
+.footer {
+  width: 1120px;
+  box-sizing: border-box;
+  margin: 88px 10vw 65px 45vw;
+  color: var(--text-secondary);
+}
