@@ -1,12 +1,139 @@
 :root {
-  --background-default: #f5f3f0
-  --border-primary: #d9d9d9
-  --text-primary: #1b1b1b
-  --text-secondary:#333333
-  --text-tertiary:#696969
-  --text-headline:#e1624f
-  --accent-blue:#0c51a7
-  --accent-orange:#e95e10
-  --accent-pink:#e5245E
-  --accent-purple:#591b98
+  --background-default: #f5f3f0;
+  --border-primary: #d9d9d9;
+  --text-primary: #1b1b1b;
+  --text-secondary:#333333;
+  --text-tertiary:#696969;
+  --text-headline:#e1624f;
+  --accent-blue:#0c51a7;
+  --accent-orange:#e95e10;
+  --accent-pink:#e5245E;
+  --accent-purple:#591b98;
+  
+}
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*/
+body {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+  width: 1280px;
+} 
+
+#hero{
+  
+  margin: 88px 15vw 65px 15vw;
+}
+
+.content-list{
+  padding-top: 64px;
+  margin-top: 40px;
+  border-top: 1px solid var(--border-primary) ;
+  border-bottom: 1px solid var(--border-primary) ;
+
+  width: 1120px;
+}
+
+.headline{
+  font-size: 16px;
+  margin-bottom: 0;
+  color: var(--text-headline);
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 8px;
+  margin-bottom: 40px;
+  color: var(--text-primary);
+}
+h2{
+  font-size: 32px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: var(--text-primary);
+}
+h3{
+  font-size: 28px;
+  font-weight: bold;
+}
+.img-01{
+  max-width: 1120px;
+  max-height: 660px;
+  border-radius: 28px;
+}
+.bold {
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  font-weight: normal;
+}
+ol > li{
+  color: var(--text-primary);
+  font-size: 28px;
+  font-weight: bold;
+}
+
+ul{
+  color: var(--accent-blue);
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subtitle{
+  font-size: 16px;
+  font-style: italic;
+  text-align: center;
+  width: 1120px;
+}
+
+.image-02 {
+  height: 350px;
+  background-image: url(assets/Image_02.png);
+  background-size: 1120px;
+  background-repeat: no-repeat;
+  border-radius: 28px;
+  margin-top: 64px;
+  background-position: center;
+}
+
+.image-03 {
+  height: 350px;
+  background-image: url(assets/Image_03.png);
+  background-size: 1120px;
+  background-repeat: no-repeat;
+  border-radius: 28px;
+  margin-top: 64px;
+  background-position: center;
+}
+
+.image-04 {
+  height: 350px;
+  background-image: url(assets/Image_04.png);
+  background-size: 1120px;
+  background-repeat: no-repeat;
+  border-radius: 28px;
+  margin-top: 64px;
+  background-position: bottom;
+}
+
+.purple{
+  color: var(--accent-purple);
+}
+.pink{
+  color: var(--accent-pink);
+}
+.orange{
+  color: var(--accent-orange);
+}
+
+.end {
+  margin-bottom: 40px;
 }
